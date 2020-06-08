@@ -1,6 +1,18 @@
 function clicou(){
     document.getElementById("textoTela").innerHTML="Obrigado por Clicar...";
 }
+function redirecionamento(){
+    window.open("https://globallabs.academy/");
+}
+function passeOmouse(elemento){
+    elemento.innerHTML="Você passou o mouse aqui...";
+}
+function voltar(elemento){
+    elemento.innerHTML="Passe o MOUSE AQUI.";
+}
+function funcaoOnchange(elemento){
+    document.getElementById("texto").innerHTML=elemento.value;
+}
 
 /*for(var count = 0; count <= 5;count++){
     console.log(count);
