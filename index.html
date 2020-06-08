@@ -11,6 +11,17 @@
     </head>
     <body>
         <button type="button" onclick="clicou()" >Clique aqui</button>
-        <h1 id="textoTela">Pagina web.</h1>
+        <h1 id="textoTela" onclick="redirecionamento()">Pagina web.</h1>
+        <br />
+        <br />
+        <h1 id="mousemove" onmouseover="passeOmouse(this)" onmouseout="voltar(this)">Passe o MOUSE AQUI.</h1>
+        <br />
+        <br />
+        <select onchange="funcaoOnchange(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+        <p id="texto"></p>
     </body>
 </html>
