@@ -26,7 +26,7 @@ function replaceString(frase, valor1, valor2){
 }*/
 /*alert(soma(10,20));
 alert(replaceString("Brasil perdeu", "Brasil", "Japão"));*/
-/*var nome = "Emanoel dos Santos Correia";
+/*var nome = "Emanoel da Silva";
 var idade = prompt("Qual sua idade");
 var idade2= 10;
 var frase ="Eu sou Brasileiro";
